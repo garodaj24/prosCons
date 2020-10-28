@@ -1,0 +1,58 @@
+html,body { 
+  height:100%; 
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 2rem 0;
+  background-color: gray;
+  color: white;
+}
+
+.prosConsTitle {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.eachProsConsTitle {
+  width: 50%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.titleBorder {
+  border-right: 1px solid black;
+}
+
+.prosCons {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.eachProsCons {
+  width: 50%;
+  height: 100%;
+}
+
+.eachItem {
+  margin-bottom: 0.5rem;
+}
+
+.eachItem > input {
+  border: none
+}
